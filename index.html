@@ -22,8 +22,20 @@
     
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="js/reactions.js"></script>
+    <script src="http://cookiealert.sruu.pl/CookieAlert-latest.min.js"></script>
+<script>
+CookieAlert.init({
+    style: 'dark',
+    position: 'bottom',
+    opacity: '0.8',
+    displayTime: 10000,
+    cookiePolicy: 'http://cookiealert.sruu.pl/o-ciasteczkach',
+    text: 'Ten serwis wykorzystuje pliki cookies. Korzystanie z witryny oznacza zgodę na ich zapis lub odczyt wg ustawień przeglądarki.'
+});
+</script>
 </head>
 <body id="page-top">
+
 
 <!--Start navigation site-->
 
@@ -68,8 +80,13 @@
                <h1 id="homeHeading">inSfera</h1>
                <hr>
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-               <a href="#aboutus" class="btn btn-primary btn-xl page-scroll">Więcej o Nas</a>
+                <div class="col-md-12">
+               <a href="#aboutus" class="btn btn-primary btn-xl page-scroll">Więcej o Nas</a>&nbsp; 
+               <a href="#webapp" class="page-scroll btn btn-primary btn-xl sr-button&nbsp;">Zobacz Aplikacje Webowe</a>&nbsp; 
+               <a href="#mobiapp" class="page-scroll btn btn-primary btn-xl sr-button">Zobacz Aplikacje Mobilne!</a>&nbsp; 
+               </div>
             </div>
+         
         </div>
     </header>
 
@@ -177,9 +194,7 @@
                 </div>
             </div>
 
-            <div class="text-center">
-                <a href="#mobiapp" class="page-scroll btn btn-primary btn-xl sr-button">Zobacz Aplikacje Mobilne!</a>
-            </div>
+            
         </div>
     </section>
 
