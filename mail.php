@@ -12,4 +12,5 @@ if($sukces){
 else{
   print "<meta http-equiv=\"refresh\" content=\"0;URL=error.html\">";
 }
+
 ?>
