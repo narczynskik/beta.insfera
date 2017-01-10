@@ -443,3 +443,10 @@ body {
     text-decoration: none;
     cursor: pointer;
 }
+.text-danger {
+  color: red;
+}
+a.text-danger:hover,
+a.text-danger:focus {
+  color: #843534;
+}
