@@ -115,7 +115,7 @@ CookieAlert.init({
         			 	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
         			 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
                             
-                            <div class="col-lg-12">
+                            <div class="col-md-8">
                                 <div class="media">
                                      <!-- Proporcje ekranu 16:9 -->
                                     <div class="embed-responsive embed-responsive-16by9">
@@ -266,12 +266,12 @@ CookieAlert.init({
                     <hr class="primary">
                     <p>Jesteś zainteresowany działalnością naszej firmy lub oferowanymi produktami?<br>
                     Skontaktuj się telefonicznie lub za pomocą maila:</p><br><br>
-                        <div class="col-lg-6 text-center">
+                        <div class="col-md-6 text-center">
                     
                                 <p> Aleja Grunwaldzka 411<br>
                                     (budynek Alchemia-Aurum, V piętro)<br>
                                     80-309 Gdańsk<br></p>
-                                <div class="col-lg-4 text-center">
+                                <div >
                                     <i class="fa fa-envelope-o fa-3x sr-contact"></i>
                                     <p>insfera@insfera.pl</p>
                                     <i class="fa fa-phone fa-3x sr-contact"></i>
@@ -281,171 +281,49 @@ CookieAlert.init({
                                 </div>     
                         </div> 
 
-                         <div class="col-md-6 text-center">
+                           <form id="formContact"  class="col-md-6" action="mail.php" method="post">
+                        <div class="form-group">
+                            <label for="inputEmail3" control-label">E-mail:</label>
+                                <div >
+                                    <input type="email" name="email" class="form-control" id="inputEmail3" placeholder="przykładowy@email.com">
+                                </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="inputSubject"  control-label">Temat:</label>
+                                <div >
+                                    <input type="text" name="subject" class="form-control" id="inputSubject" placeholder="Temat wiadomności">
+                                </div>
+                         </div>
+
+                        <div class="form-group">
+                            <label for="inputMessage"  control-label">Wiadomość:</label>
+                                <div >
+                                   <textarea type="text" name="message" class="form-control" id="inputMessage" placeholder="Treść" rows="10"></textarea>
+                                </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div >
+                                <button type="submit" class="btn btn-primary">Wyślij wiadomość</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <br><br><br><br>
+
+                <h3>Dojedź do nas: </h3>
+                    
+
+                    <div class="col-lg-12 text-center">
 
                          <div class="media">
                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2762.0734058858384!2d18.57411458110302!3d54.39906862677838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fd7528f407d1f9%3A0x4834f063b5f3750c!2saleja+Grunwaldzka+411%2C+80-309+Gda%C5%84sk!5e0!3m2!1spl!2spl!4v1483606910385" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                          </div>
 
-                         </div>  
-                </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<form id="formContact" class="form-horizontal" action="mail.php" method="post">
-
-  <div class="form-group">
-    <label for="inputEmail3" class="col-sm-2 control-label">E-mail:</label>
-    <div class="col-sm-10">
-      <input type="email" name="email" class="form-control" id="inputEmail3" placeholder="przykładowy@email.com">
-    </div>
-  </div>
-
-   <div class="form-group">
-    <label for="inputSubject" class="col-sm-2 control-label">Temat:</label>
-    <div class="col-sm-10">
-      <input type="text" name="subject" class="form-control" id="inputSubject" placeholder="Temat wiadomności">
-    </div>
-  </div>
-
- <div class="form-group">
-    <label for="inputMessage" class="col-sm-2 control-label">Wiadomość:</label>
-    <div class="col-sm-10">
-      <textarea type="text" name="message" class="form-control" id="inputMessage" placeholder="Treść" rows="10"></textarea>
-    </div>
-  </div>
-
-
-
-  <div class="form-group">
-    <div class="col-sm-offset-2 col-sm-10">
-      <button type="submit" class="btn btn-primary">Wyślij wiadomość</button>
-    </div>
-  </div>
-</form>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                
+                         </div>
             </div>
-            
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </section>
 
   <!-- Bootstrap Core JavaScript -->
