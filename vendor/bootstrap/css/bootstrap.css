@@ -5,7 +5,7 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: sans-serif;
+  font-family: tahoma; 
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -1366,7 +1366,8 @@ a.text-warning:focus {
 }
 
 .bg-primary {
-  color: #fff;
+  font-family: Tahoma;
+  color: red;
   background-color: #337ab7;
 }
 a.bg-primary:hover,

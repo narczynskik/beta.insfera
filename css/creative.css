@@ -6,12 +6,12 @@ body {
   font-family: Tahoma,'Merriweather', 'Helvetica Neue', sans-serif;
 }
 hr {
-  border-color: #F05F40;
-  border-width: 3px;
+  border-color: #00CED1;
+  border-width: 5px;
   max-width: 50px;
 }
 hr.light {
-  border-color: white;
+  border-color: #00CED1;
 }
 a {
   -webkit-transition: all 0.35s;
@@ -29,10 +29,12 @@ p {
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 20px;
+  font-family: Tahoma;
 }
 
 .bg-primary {
   background-image: url('../img/tlo.png');
+
 }
 .app-primary{
   background-image: url('../img/tlo1.png');
@@ -90,7 +92,7 @@ aside {
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #F05F40 !important;
+  color: #00CED1 !important;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -160,10 +162,26 @@ header .header-content {
 header .header-content .header-content-inner h1 {
   
   font-weight: 700;
-  text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 30px;
+  font-family: Tahoma;
+  color: black;
+}
+
+header .header-content .header-content-inner h1:first-letter
+{
+ 
+  font-size: 1.2em;
+  color:red;
+}
+
+
+header .header-content .header-content-inner h1 #special{
+
+    font-size: 1.2em;
+    color:red;
+
 }
 header .header-content .header-content-inner hr {
   margin: 30px auto;
