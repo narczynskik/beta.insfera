@@ -42,16 +42,7 @@
             $("#def-window4").show();
         });
         
-        $(".def-window-close").click(function() {
-            $("#def-window1").hide();
-            $("#def-window2").hide();
-            $("#def-window3").hide();
-            $("#def-window4").hide();
-        });
-        
-        $("#full-gallery-btn").click(function() {
-           $("#gallery-window").show(); 
-        });
+       
         
     });
     

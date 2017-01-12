@@ -23,16 +23,8 @@
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="js/reactions.js"></script>
     <script src="http://cookiealert.sruu.pl/CookieAlert-latest.min.js"></script>
-<script>
-CookieAlert.init({
-    style: 'dark',
-    position: 'bottom',
-    opacity: '0.8',
-    displayTime: 10000,
-    cookiePolicy: 'http://cookiealert.sruu.pl/o-ciasteczkach',
-    text: 'Ten serwis wykorzystuje pliki cookies. Korzystanie z witryny oznacza zgodę na ich zapis lub odczyt wg ustawień przeglądarki.'
-});
-</script>
+    <script src="js/cookis.js"></script>
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -89,9 +81,9 @@ CookieAlert.init({
                <br><br><br><br>
                <h1 id="homeHeading">inSfera</h1>
                <hr>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+               <p >Oprogramowanie Specialnie Dla Ciebie</p>
                 <div class="col-md-12">
-               <a href="#aboutus" class="btn btn-primary btn-xl page-scroll&nbsp;&nbsp;">Więcej o Nas</a>&nbsp;
+               <a href="#aboutus" class="page-scroll btn btn-primary btn-xl sr-button&nbsp;&nbsp;">Więcej o Nas</a>&nbsp;
                <a href="#webapp" class="page-scroll btn btn-primary btn-xl sr-button&nbsp;&nbsp;">Zobacz Aplikacje Webowe</a>&nbsp; 
                <a href="#mobiapp" class="page-scroll btn btn-primary btn-xl sr-button&nbsp;&nbsp;">Zobacz Aplikacje Mobilne!</a>&nbsp; 
                </div>
@@ -108,14 +100,12 @@ CookieAlert.init({
     				 <hr class="light">
 
                         <div class="text-faded text-justify">
-        			 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        			 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        			 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        			 	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        			 	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        			 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
+        			 	<p>Firma inSFERA powstała, aby stworzyć oprogramowanie, jakiego nie mogliśmy znaleźć na rynku. Oczywiście na każdą platformę mobilną są tysiące aplikacji w każdej dziedzinie, ale nie chcieliśmy, aby gotowa aplikacja „z półki” wymuszała na nas zmianę naszego sposobu pracy tylko dlatego, że nie można w niej uwzględnić specyfiki naszej pracy bądź wymagań klienta.</p><br><br> 
+
+                        <p>Potrzebowaliśmy oprogramowania do obsługi nietypowego workflow w realizowanych dla naszych Klientów projektach, łączącego trzy cechy: <br><br> &rarr; niski koszt wdrożenia jednostkowego<br> 
+                        &rarr; uniwersalność zastosowania<br> &rarr; elastyczność rozwiązań chmurowych<br><br> Nie znaleźliśmy takiej aplikacji wśród setek innych – więc napisaliśmy ją sami.</p><br>
                             
-                            <div class="col-md-8">
+                            <div class="col-md-6">
                                 <div class="media">
                                      <!-- Proporcje ekranu 16:9 -->
                                     <div class="embed-responsive embed-responsive-16by9">
@@ -123,32 +113,30 @@ CookieAlert.init({
                                             <source src="video/promo.mp4" type="video/mp4">
                                         </video>
                                     </div>
-                                </div>
-                            </div>   
+                                </div> <br><br>
+                            </div> 
+                            
+  
                         </div>
                     
                         
     				 	
-    				 		<div id="insferaDefinition" class="hidden-def">
+    				 		<!-- b<div id="insferaDefinition" class="hidden-def"><-->
+                                <div class="col-md-6 text-left">
+                               
+        				 		<p>Nasze oprogramowanie stworzyliśmy po to, aby rozwiązać realne problemy w własnym przedsiębiorstwie. Zostało gruntownie przetestowane przez kilkudziesięciu pracowników podczas setek dni pracy w terenie. Tworzone na wewnętrzne potrzeby firmy oprogramowanie wyewoluowało w stabilne środowisko, pozwalające bardzo szybko przygotować narzędzia dla naszych nowych projektów.
+                                </p><br><br><br></div>
 
-        				 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        				 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        				 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        				 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        				 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        				 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        				 		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        				 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        				 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        				 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        				 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        				 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br><br>
+                                    <div class="col-md-12">
+                                        <p>Posiadamy stabilny zespół pracowników, pracujący nad rozszerzaniem możliwości naszego software. Nasi pracownicy posiadają wieloletnie doświadczenie biznesowe w organizacji i monitoringu pracy rozproszonych zespołów pracowników - rozumiemy specyfikę pracy terenowej, jej ograniczenia oraz zagrożenia.  
+                                        Rozumiemy, jak działają ekipy serwisowe – jak należy monitorować ich pracę, co poprawia efektywność, a co jest tylko niepotrzebnym utrudnieniem dla pracowników.</p> 
+                                 </div>
                              </div>
                                                 
                       
-                                 <i id="expandInsferaDefinition" class="fa fa-angle-double-down fa-4x sr-button text-center" aria-hidden="true"></i>
+                                <!-- <i id="expandInsferaDefinition" class="fa fa-angle-double-down fa-4x sr-button text-center" aria-hidden="true"></i>
                                 <i id="hideInsferaDefinition" class="fa fa-angle-double-up fa-4x text-center hidden-def" aria-hidden="true"></i>
-                                <br><br>
+                                <br><br> <-->
     			</div>
 
    
@@ -167,19 +155,8 @@ CookieAlert.init({
                     <hr class="primary">
 
                     <div class="text-faded text-justify">
-    				 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    				 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    				 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    				 	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    				 	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    				 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    				 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    				 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    				 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    				 	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    				 	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    				 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <br><br>
+
+
 
                       
 
@@ -219,29 +196,38 @@ CookieAlert.init({
                     <hr class="primary">
 
                     <div class="text-faded text-justify">
-    				 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    				 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    				 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    				 	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    				 	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    				 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    				 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    				 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    				 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    				 	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    				 	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    				 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    				 <h4>Proste i intuicyjne oprogramowanie działające na urządzeniach z Androidem (powyżej wersji 4), posiadające następujące funkcjonalności:</h4><br>
+                            <p>&rarr; Przekazywanie zleceń do ekipy terenowej<br>
+                            &rarr; Monitorowanie pozycji pracowników<br>
+                            &rarr; Narzędzia do akwizycji danych (geopozycjonowanie, listy atrybutów wraz ze słownikami, geokodowanie adresów, dokumentowanie za pomocą zdjęć, filmów wideo, notatek głosowych)<br>
+                            &rarr; Bezpośrednie współdziałanie z chmurowymi bazami danych (natychmiastowy dostęp do danych po stronie dyspozytora)<br>
+                            &rarr; Zabezpieczenie dostępu do programu na poziomie terminala oraz dodatkowym hasłem<br></p>
+                        <br><br>
+                        <h4>Przeznaczenie oprogramowania</h4>
+                        <p>
+                            &rarr; Zbieranie danych GIS (data collecting) <br>
+                            &rarr; Przekazywanie zleceń do terenowych ekip technicznych<br>
+                            &rarr; Okresowa inwentaryzacja rozproszonych zasobów (budynki, elementy infrastruktury)<br>
+                            &rarr; Rejestrowanie zdarzeń zgłaszanych przez pracowników<br>
+
+                        </p>
+
+                        <h3>Zobacz jak to działa: </h3><br><br><br>
 
                             <div id="insfera1Definition" class="hidden-def">
-                    	 		<div class="col-md-12 text-center">
+                    	 		<div class="col-md-6">
                                     <div class="media">
                                         <div class="embed-responsive embed-responsive-16by9">
                                             <video  controls>
                                                 <source src="video/odbiory.mp4" type="video/mp4">
                                             </video>
                                         </div>
-                                        <br><br>
-                                        <div class="embed-responsive embed-responsive-16by9">
+                                    </div>
+                                </div>
+
+                                         <div class="col-md-6">
+                                            <div class="media">
+                                                <div class="embed-responsive embed-responsive-16by9">
                                             <video  controls>
                                                 <source src="video/test.mp4" type="video/mp4">
                                             </video>
@@ -251,7 +237,7 @@ CookieAlert.init({
                             </div>
                         </div>
                         <i id="expandInsfera1Definition" class="fa fa-angle-double-down fa-4x sr-button text-center" aria-hidden="true"></i>
-                    <i id="hideInsfera1Definition" class="fa fa-angle-double-up fa-3x text-center hidden-def" aria-hidden="true"></i><br><br>
+                    <i id="hideInsfera1Definition" class="fa fa-angle-double-up fa-4x text-center hidden-def" aria-hidden="true"></i><br><br>
                     </div>
                      
             </div>                       
@@ -266,14 +252,19 @@ CookieAlert.init({
                     <hr class="primary">
                     <p>Jesteś zainteresowany działalnością naszej firmy lub oferowanymi produktami?<br>
                     Skontaktuj się telefonicznie lub za pomocą maila:</p><br><br>
-                        <div class="col-md-6 text-center">
+                        <div class="col-md-6 ">
                     
-                                <p> Aleja Grunwaldzka 411<br>
-                                    (budynek Alchemia-Aurum, V piętro)<br>
-                                    80-309 Gdańsk<br></p>
+                                <p> inSFERA  Sp. z o. o., 80-557 Gdańsk, ul. Załogowa 2 <br>
+                                    Sąd Rejonowy Gdańsk – Północ w Gdańsku <br>
+                                    VII Wydział Gospodarczy Krajowego Rejestru Sądowego <br> 
+                                    KRS 0000599522 <br>  
+                                    NIP 9571083337 <br>       
+                                    Regon 363621940 <br>
+                                    Kapitał zakładowy 6 000 PLN <br>
+                                    </p>
                                 <div >
                                     <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                                    <p>insfera@insfera.pl</p>
+                                    <p>biuro@insfera.pl</p>
                                     <i class="fa fa-phone fa-3x sr-contact"></i>
                                     <p>tel. +48 58 72 82 408<br></p>
                                     <i class="fa fa-fax fa-3x sr-contact" ></i>
@@ -309,8 +300,9 @@ CookieAlert.init({
                             </div>
                         </div>
                     </form>
+                     <br><br><br><br><br><br><br><br>
                 </div>
-                <br><br><br><br>
+      
 
                 <h3>Dojedź do nas: </h3>
                     
@@ -318,7 +310,7 @@ CookieAlert.init({
                     <div class="col-lg-12 text-center">
 
                          <div class="media">
-                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2762.0734058858384!2d18.57411458110302!3d54.39906862677838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fd7528f407d1f9%3A0x4834f063b5f3750c!2saleja+Grunwaldzka+411%2C+80-309+Gda%C5%84sk!5e0!3m2!1spl!2spl!4v1483606910385" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2323.5368511979814!2d18.6381653158778!3d54.38283198020933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fd74a75c7e8f8f%3A0x674f92a5217b8451!2zWmHFgm9nb3dhIDIsIDgwLTE0MCBHZGHFhHNr!5e0!3m2!1spl!2spl!4v1484214797294" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                          </div>
 
                          </div>
@@ -330,32 +322,14 @@ CookieAlert.init({
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-     <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.js"></script>
-    <script>
-     $("#formContact").validate({
-        errorClass: "text-danger",
-  rules: {
-    subject: "required",
-    message: "required",
-    email: {
-      required: true,
-      email: true
-    }
-  },
-  messages: {
-    subject: "Brak Tematu wiadomość",
-    message: "Brak treści e-mail",
-    email: {
-      required: "Nie podałeś adresu e-mail",
-      email: "Błędny format adresu e-mail:  name@domain.com"
-    }
-  }
-});
-</script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.js"></script>
+
+    
 
     <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
     <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
     <!-- Theme JavaScript-->
     <script src="js/creative.js"></script>
+      <script src=js/validacja.js></script>
 </body>
 </html>
