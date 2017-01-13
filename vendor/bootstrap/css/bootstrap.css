@@ -3333,18 +3333,18 @@ fieldset[disabled] .btn-warning.focus {
   border-color: #eea236;
 }
 .btn-warning .badge {
-  color: #f0ad4e;
+  color: #FF0000;
   background-color: #fff;
 }
 .btn-danger {
   color: #fff;
-  background-color: #d9534f;
-  border-color: #d43f3a;
+  background-color: #FF0000;
+  border-color: #FF0000
 }
 .btn-danger:focus,
 .btn-danger.focus {
   color: #fff;
-  background-color: #c9302c;
+  background-color: #FF0000;
   border-color: #761c19;
 }
 .btn-danger:hover {
