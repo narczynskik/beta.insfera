@@ -11,7 +11,7 @@ if($sukces){
   print "Wiadomość została wysłana poprawnie <meta http-equiv=\"refresh\" content=\"1;URL=index.html\">";
 }
 else{
-  print "<meta http-equiv=\"refresh\" content=\"0;URL=error.html\">";
+  print "<meta http-equiv=\"refresh\" content=\"2;URL=error.html\">";
 }
 
 ?>
