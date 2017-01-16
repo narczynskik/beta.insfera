@@ -247,6 +247,9 @@ header .header-content .header-content-inner p {
   padding-right: 0;
   padding-left: 0;
 }
+.btn{
+  margin-bottom: 5px;
+}
 .btn-default {
   color: #222222;
   background-color: white;
@@ -423,3 +426,4 @@ a.text-danger:focus {
   text-align: center;
 
 }
+
